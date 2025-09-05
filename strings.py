@@ -67,3 +67,4 @@ print(myList)
 #insert data into list
 myList.insert(2,"Atandra")
 print(myList)
+#append is same as insert.... by default it inserts at the end if no such position is mentioned
