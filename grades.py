@@ -2,16 +2,16 @@
 marks=float(input("Enter the Grade of the student: "))
 if(marks>=90):
     grade="A"
-elif(marks<90 and marks>80):
+elif(marks>=80):
     grade="B"
-elif(marks>=70 and marks<80):
+elif(marks>=70):
     grade="C"
-elif(marks>60 and marks<70):
+elif(marks>=60):
     grade="D"
-elif(marks>50 and marks<60):
+elif(marks>=50):
     grade="E"
-elif(marks>40 and marks<50):
-    grade="NI"
+elif(marks>=40):
+    grade="NI (Needs Improvement)"
 else:
     grade="Fail"
 
