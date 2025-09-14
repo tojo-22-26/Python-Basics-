@@ -5,7 +5,7 @@ def fact(n):
         return n * fact(n-1)
     
 while True:
-    num=int(input("Enter the value:"))
+    num=int(input("Enter the value: "))
     fac=fact(num)
     print("The Result is: ", fac)
     retry=input("Want to continue?(Y/N): ").lower()
